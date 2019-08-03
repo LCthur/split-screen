@@ -1,0 +1,15 @@
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  height: 100vh;
+  grid-gap: 16px;
+}
+
+.left {
+  background-color: #75101D;
+}
+
+.right {
+
+}
