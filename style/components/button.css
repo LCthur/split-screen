@@ -1,3 +1,7 @@
 .contact-action {
-
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #75101D;
+  font-size: 24px;
 }

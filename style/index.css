@@ -3,6 +3,7 @@
 @import 'components/shapes.css';
 @import 'components/title.css';
 @import 'components/text.css';
+@import 'components/button.css';
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
