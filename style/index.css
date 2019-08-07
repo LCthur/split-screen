@@ -1,9 +1,13 @@
+/* components */
 @import 'components/grid.css';
 @import 'components/shapes.css';
+@import 'components/title.css';
+@import 'components/text.css';
 
-
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 
 body {
   margin: 0px;
-  font-family: Open Sans;
+  font-family: 'Work Sans', sans-serif;
 }
