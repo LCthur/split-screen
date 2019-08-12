@@ -7,7 +7,7 @@
 }
 
 .menu ul {
-  margin-left: 0px;
+  margin: 0 auto;
   padding-left: 75px;
 }
 
@@ -25,5 +25,35 @@
   text-decoration: none;
   color: white;
 }
+
+@media (max-width: 1200px) {
+    .right-text {
+      font-size: 28px !important;
+      margin-top: 60%;
+    }
+}
+
+@media (max-width: 992px) {
+    .list-item {
+      width: 80%;
+    }
+
+    .menu ul {
+      padding-left: 0px;
+      text-align: center;
+    }
+
+    .right-text {
+      margin-top: 0px;
+      text-align: center;
+      padding: 30px;
+      margin-left: 0px;
+    }
+}
+
+
+
+
+
 
 

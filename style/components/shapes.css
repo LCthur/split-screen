@@ -21,3 +21,9 @@
   width: 90px;
   background-color: #75101D;
 }
+
+@media (max-width: 992px) {
+      .white-shape {
+      visibility: hidden;
+    }
+}
