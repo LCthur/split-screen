@@ -1,8 +1,12 @@
 .title {
   color: white;
   font-size: 36px;
-  padding: 50px;
+  padding: 30px;
   padding-left: 75px;
+}
+
+span {
+  font-size: 50px;
 }
 
 .contact-form-title {
@@ -17,12 +21,16 @@
       font-size: 24px !important;
       padding: 25px;
       text-align: center;
-      margin-top: 20%;
+      margin-top: 10%;
+    }
+    span {
+      font-size: 42px;
     }
 }
 
 @media (max-width: 992px) {
   .title {
     margin-top: 0;
+    padding: 5px;
   }
 }

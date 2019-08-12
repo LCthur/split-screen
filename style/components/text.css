@@ -28,8 +28,8 @@
 
 @media (max-width: 1200px) {
     .right-text {
-      font-size: 24px !important;
-      margin-top: 70%;
+      font-size: 28px !important;
+      margin-top: 60%;
     }
 }
 
@@ -38,19 +38,19 @@
       width: 80%;
     }
 
+    .menu ul {
+      padding-left: 0px;
+      text-align: center;
+    }
+
     .right-text {
       margin-top: 0px;
       text-align: center;
       padding: 30px;
+      margin-left: 0px;
     }
 }
 
-@media (max-width: 576px) {
-  .menu ul {
-    padding-left: 0px;
-    text-align: center;
-  }
-}
 
 
 
