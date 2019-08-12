@@ -4,3 +4,10 @@
   padding: 50px;
   padding-left: 75px;
 }
+
+.contact-form-title {
+  padding: 30px;
+  padding-top: 50px;
+  color: white;
+  font-weight: bold;
+}
