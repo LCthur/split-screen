@@ -13,3 +13,18 @@ textarea:focus, input:focus{
   color: white;
   font-weight: bold;
 }
+
+.full-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .full-name {
+    flex-direction: column;
+  }
+
+  .full-name input {
+    padding: 20px;
+  }
+}
