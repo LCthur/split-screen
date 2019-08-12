@@ -1,0 +1,15 @@
+.underlined {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.underlined::placeholder{
+  color: white;
+  font-weight: bold;
+}
