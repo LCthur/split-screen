@@ -22,6 +22,27 @@
   background-color: #75101D;
 }
 
+.dotted-line {
+  height: 100px;
+  width: 50%;
+  border-right: 5px dotted white;
+}
+
+.circle {
+  color: #75101D;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 50%;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
 @media (max-width: 992px) {
       .white-shape {
       visibility: hidden;
