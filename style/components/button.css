@@ -32,3 +32,16 @@
   color: white;
   opacity: 1;
 }
+
+.social-btn {
+  font-size: 42px;
+  color: white;
+  opacity: 0.8;
+  padding: 15px;
+}
+
+.social-btn:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
