@@ -16,6 +16,16 @@ span {
   font-weight: bold;
 }
 
+
+.certif-title {
+  font-size: 50px;
+  text-decoration: underline;
+  padding: 30px;
+  padding-top: 50px;
+  color: white;
+  text-underline-position: under;
+}
+
 @media (max-width: 1200px) {
     .title {
       font-size: 24px !important;
