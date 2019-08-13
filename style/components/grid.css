@@ -43,13 +43,6 @@
   .work-cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
- .main-grid {
-    grid-template-columns: 1fr;
-    grid-auto-flow: dense;
-  }
-  .left {
-    height: 65vh;
-  }
 }
 
 
@@ -58,4 +51,15 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+@media (max-width: 992px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+    grid-auto-flow: dense;
+  }
+  .left {
+    height: 65vh;
+  }
+}
+
 
