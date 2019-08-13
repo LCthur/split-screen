@@ -6,6 +6,7 @@
 @import 'components/button.css';
 @import 'components/form.css';
 @import 'components/card.css';
+@import 'components/banner.css';
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
