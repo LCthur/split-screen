@@ -5,13 +5,14 @@
 @import 'components/text.css';
 @import 'components/button.css';
 @import 'components/form.css';
+@import 'components/card.css';
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 
 body {
   margin: 0px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif !important;
 }
 
 .main {
