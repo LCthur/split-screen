@@ -28,6 +28,12 @@
   border-right: 5px dotted white;
 }
 
+.dotted-line-red {
+  height: 100px;
+  width: 50%;
+  border-right: 5px dotted #75101D;
+}
+
 .circle {
   color: #75101D;
   margin: 0 auto;
