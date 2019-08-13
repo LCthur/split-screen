@@ -20,3 +20,15 @@
   margin-top: 30px;
   font-size: 20px;
 }
+
+.home-btn {
+  color: white;
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+.home-btn:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
