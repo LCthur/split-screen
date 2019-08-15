@@ -81,7 +81,7 @@
     }
 }
 
-@media (min-width: 330px) {
+@media (min-width: 420px) {
     .arrow {
       visibility: hidden;
     }
