@@ -21,3 +21,9 @@ body {
   background-color: #75101D;
   height: 100vh;
 }
+
+@media (max-width: 330px) {
+  .main {
+    height: 100%
+  }
+}
