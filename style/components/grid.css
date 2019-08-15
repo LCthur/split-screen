@@ -62,4 +62,11 @@
   }
 }
 
+@media (max-width: 320px) {
+  .left {
+    height: 80vh;
+  }
+}
+
+
 
