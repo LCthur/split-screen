@@ -3,3 +3,15 @@
   background-color: #75101D;
   padding: 15px;
 }
+
+@media (max-width: 576px) {
+  .banner {
+    height: 25vh;
+  }
+}
+
+@media (max-width: 325px) {
+  .banner {
+    height: 35vh;
+  }
+}

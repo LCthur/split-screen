@@ -44,3 +44,10 @@ span {
     padding: 5px;
   }
 }
+
+@media (max-width: 576px) {
+  .certif-title {
+    font-size: 40px;
+    padding-top: 30px;
+  }
+}
