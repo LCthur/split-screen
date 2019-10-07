@@ -17,6 +17,15 @@
   padding: 20px;
 }
 
+.services {
+  padding-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 0 auto;
+  width: 90%;
+}
+
 
 @media (min-width: 100px) and (max-width: 575px) {
   .work-cards {

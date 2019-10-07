@@ -73,6 +73,12 @@
   position: relative;
 }
 
+.service-card {
+  border: 4px solid white;
+  color: white;
+  text-align: center;
+}
+
 @media (max-width: 576px) {
   .certif-image {
     width: 80px;
