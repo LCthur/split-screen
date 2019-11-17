@@ -1,8 +1,8 @@
 .main-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  max-height: 100vh;
   grid-gap: 16px;
 }
 
@@ -16,6 +16,8 @@
   grid-gap: 16px;
   padding: 20px;
 }
+
+
 
 
 @media (min-width: 100px) and (max-width: 575px) {
@@ -65,7 +67,7 @@
 
 @media (max-width: 360px) {
   .left {
-    height: 100vh;
+    min-height: 100vh;
   }
 }
 

@@ -23,7 +23,6 @@ span {
   padding: 30px;
   padding-top: 50px;
   color: white;
-  text-underline-position: under;
 }
 
 @media (max-width: 1200px) {
@@ -49,5 +48,9 @@ span {
   .certif-title {
     font-size: 40px;
     padding-top: 30px;
+  }
+
+  .title {
+    font-size: 1.25rem !important;
   }
 }
