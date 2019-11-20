@@ -50,13 +50,8 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-.arrow
-{
-  position: relative;
-  bottom: -4rem;
-  text-align: center;
-  color: white;
-  font-size: 50px;
+.arrow {
+  visibility: hidden;
 }
 
 .bounce {
@@ -87,8 +82,13 @@
     }
 }
 
-@media (min-width: 361px) {
+@media (max-width: 361px) {
     .arrow {
-      visibility: hidden;
+      visibility: visible;
+      position: relative;
+      bottom: -4rem;
+      text-align: center;
+      color: white;
+      font-size: 50px;
     }
 }
