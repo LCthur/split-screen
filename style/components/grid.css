@@ -2,7 +2,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-width: 100vw;
+<<<<<<< HEAD
   max-height: 100vh;
+=======
+  height: 100vh;
+>>>>>>> master
   grid-gap: 16px;
 }
 
